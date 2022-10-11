@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "T1",
+      "setup": "",
+      "run": "python main.py",
+      "input": "are arrow amore aspire",
+      "output": "[\\w,\\W]*are[\\w,\\W]*amore[\\w,\\W]*aspire[\\w,\\W]*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "T2",
+      "setup": "",
+      "run": "python main.py",
+      "input": "assertive arrogant bartender carter",
+      "output": "[\\w,\\W]*assertive[\\w,\\W]*bartender[\\w,\\W]*carter[\\w,\\W]*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "T3",
+      "setup": "",
+      "run": "python main.py",
+      "input": "are areare arrow rear",
+      "output": "[\\w,\\W]*are[\\w,\\W]*areare[\\w,\\W]*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
